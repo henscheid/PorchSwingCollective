@@ -1,25 +1,12 @@
 import React from 'react';
 import './App.css';
 
-import Header from './components/header'
-import Intro from './components/intro'
-import Nav from './components/nav'
-import Footer from './components/footer'
+import HomePage from './pages/homepage'
 
 function App() {
   return (
-    <div style={wrapper}>
-      <Header></Header>
-      <Intro></Intro>
-      <Nav></Nav>
-      <Footer></Footer>
-    </div>
+    <HomePage></HomePage>
   );
 }
-
-const wrapper = {
-  background: '#9AE3EA'
-}
-
 
 export default App;

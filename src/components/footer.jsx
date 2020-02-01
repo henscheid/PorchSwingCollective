@@ -13,8 +13,10 @@ class Footer extends Component {
 }
 
 const footerContainer = {
-  background: '#0099ff',
+  background: '#4579C6',
   height: '5em',
+  borderStyle: 'solid',
+  borderColor: 'black transparent transparent',
 }
 
 const footerText = {

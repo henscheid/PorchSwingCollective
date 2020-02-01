@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Intro extends Component {
   render() {
     return(
-      <div>
+      <div style={introContainer}>
         <p style={introText}>we are just a group of friends who want to share our favorite
         creations with the world<br></br><br></br>
 
@@ -17,6 +17,10 @@ class Intro extends Component {
 
 export default Intro;
 
+const introContainer = {
+  paddingTop: '2em',
+  paddingBottom: '3em',
+}
 const introText = {
   textAlign: 'center',
 }

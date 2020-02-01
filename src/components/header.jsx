@@ -5,21 +5,27 @@ class Header extends Component {
   render() {
     return(
       <div style={headerStyle}>
-        <h1 style={titleStyle}>The Collective </h1>
+        <div>
+        </div>
+          <h1 style={titleStyle}>The Collective </h1>
       </div>
     )
   }
 }
 
 const headerStyle = {
-  background: 'white',
+  background: '#7C3333',
   height: '10em',
+  borderStyle: 'solid',
+  borderColor: 'transparent transparent black',
 };
 
 const titleStyle = {
-  fontSize: '5em',
+
+  fontSize: '4em',
   textAlign : 'center',
-  color: '#9AE3EA',
+  color: '#E2D185',
+  backgroundColor: '#7C3333',
 
 }
 
